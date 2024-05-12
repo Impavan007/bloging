@@ -1,0 +1,32 @@
+.Category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  top: 4.3vw;
+ 
+  gap: 1vh;
+  position: fixed;
+ right: .1vw;
+  background-color: white;
+  height: 10%;
+  width: 100%;
+  z-index: 50;
+ 
+  
+}
+.Category_content{
+    font-size: 2.5vh;
+    padding: 0px 2vw;
+    border-radius: 40px;
+    background-color: lightgray;
+    cursor: pointer;
+}
+.Category_content:hover{
+    background-color: gray;
+    font-size: 2.8vh;
+}
+@media (max-width:768px) {
+    .Category{
+        display: none;
+    }
+}

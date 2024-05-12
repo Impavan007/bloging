@@ -1,0 +1,70 @@
+.container-1{
+    width: 50%;
+    height: 95vh;
+    background-color: ghostwhite;
+    color:gray;
+    gap:20px;
+    margin-left: 4vw;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    align-items: center;
+    z-index: 100;
+    
+
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 2vh;
+    right: 23vw;
+}
+
+.register{
+    height: 100%;
+    width: 100%;
+    background-color: #000000a7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+.inputDiv{
+    margin-top:2vh;
+}
+.inputStyles{
+    font-size: 4vh;
+    margin-top: 4vh;
+    border: none;
+    padding: 2vh;
+    border-radius: 10px;
+    margin-top:1vh;
+   
+   
+    
+}
+.inputStyles:focus{
+outline: 2px solid #3ea6ff;
+}
+.LoginButton{
+    padding: 5px 15px;
+    width: 100%;
+    background-color: transparent;
+    color: #3ea6ff;
+    font-weight: 500;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size:5vh;
+    border: 1px solid #3ea6ff;
+}
+.form{
+    overflow-y: scroll;
+}

@@ -1,0 +1,17 @@
+.comment{
+    display: flex;
+    margin-top: 10vh;
+    align-items: center;
+    gap: 1vw;
+}
+
+
+.commentdt{
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    margin-top: 2vh;
+}
+.commentpara{
+    margin-top: 2vh;
+}

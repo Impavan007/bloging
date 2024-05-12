@@ -1,0 +1,40 @@
+.container{
+    margin: 6vw ;
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+   
+    
+}
+.card_body{
+    width: 70%;
+    margin-right: 30vw;
+}
+.blogDiv1_Card{
+    width: 30%;
+}
+.blogDiv1{
+    width: 30%;
+    margin-left: 70vw;
+    position: fixed;
+
+}
+@media only screen and (max-width: 768px){
+    .blogDiv1{
+        display: none;
+    }
+    .container{
+        margin: 20vw ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+       
+        
+    }
+    .card_body{
+        width: 80%;
+        margin-right: 0px;
+    }
+}

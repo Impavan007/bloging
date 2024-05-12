@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+  .search_2{
+display: flex;
+align-items: center;
+font-size: 2vw;
+margin-right: 2vw;
+  }
+  .SearchData{
+    display: flex;
+    
+}
+.Sign-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5vh;
+    gap: 2vh;
+    
+  }.NavBody{
+    height: 10vh;
+}.signout-Div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3vh;
+}
+.userDetail{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+  gap: 2vh;
+}
+.navButton{
+  padding: 5px 15px;
+  background-color: transparent;
+  color: #3ea6ff;
+  font-weight: 500;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  
+  font-size: 15px;
+  border: 1px solid #3ea6ff;
+}
+#imgUrl{
+  border: 50%;
+  object-fit: cover;
+}
+
+  @media (max-width:768px) {
+    .Sign-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+      }.signout-Div{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: start;
+      }
+      .SearchData{
+        display: flex;
+        flex-direction: column;
+      }
+      .abc{
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        align-items: center;
+      }
+      .NavBody{
+        height: auto;
+    }.userDetail{
+      display: flex;
+      flex-direction: column;
+    }
+      .search_2{
+        margin-right: 0px;
+        font-size: 2vw;
+      }
+
+  }

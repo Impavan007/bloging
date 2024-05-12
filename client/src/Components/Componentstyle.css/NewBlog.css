@@ -1,0 +1,170 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cards{
+
+    margin: .5vw 1vw;
+    width: 100%;
+
+}
+
+.card{
+    border: 1px solid white;
+    background-color: bisque;
+    
+    
+
+    float: left;
+    display: grid;
+    gap: 10px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+  width: 100%;
+  cursor: pointer;
+  padding:1vw;
+  margin-top: 2vw;
+
+}
+.card__info{
+  width: 100%;
+}
+.card__img{
+    height: 250px;
+    width: 100%;
+   
+ 
+    
+}
+.card__cetegory , .card__title{
+    /* background-color: whitesmoke;
+    border:1px solid white;
+    border-radius: 2px; */
+    padding: 1vw 0px;
+    color: rgb(214, 132, 60);
+}
+.likeDiv{
+  display: flex;
+  gap: 1vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 1vw;
+  cursor: pointer;
+ 
+}
+.Like{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1vw;
+
+  padding: 0px 2vh ;
+  font-size: 2vw;
+  width:100%;
+  align-items: center;
+
+}
+.button_follow{
+    padding: 5px 8px;
+    font-family: raleway, sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2PX;
+    font-weight: 500;
+    background-color: rgb(231, 168, 73);
+    outline: none;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.card:hover{
+   
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card__cetegory , .card__title{
+box-shadow: 0 40px 60px -20px rgba(12, 5, 62, 0.15);
+ 
+  
+}
+
+.downBody{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    
+    border-bottom: 1px solid gray;
+  }
+a, a:hover {
+    text-decoration: none;
+  }
+  .likIcon{
+    font-size: 2vw;
+  }
+  
+  a:hover {
+    opacity: 0.8;
+  }
+  .userProfile{
+    width: 3vw;
+    height: 6vh;
+    border-radius: 50% ;
+    background-color: gray;
+  }
+  @media (max-width:768px) {
+    .card{
+      width:80vw;
+    }
+    .card__img{
+      height: 30vh;    
+      width: 80vw;
+  }
+  .button_Div{
+    position: absolute;
+    margin-left: 60vw;
+  }
+  .button_follow{
+    padding: 1vh 1vh;
+    font-family: raleway, sans-serif;
+    text-transform: uppercase;
+    font-size: 2vh;
+    letter-spacing: 2PX;
+    font-weight: 500;
+    background-color: rgb(231, 168, 73);
+    outline: none;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+   
+}
+  .likeDiv{
+    display: flex;
+    gap: 1vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+   
+  }
+  .likIcon{
+    font-size: 3vw;
+  }
+  .userProfile{
+    width: 8vw;
+    height: 6vh;
+    border-radius: 50% ;
+    background-color: gray;
+    
+  }
+  
+  .downBody{
+    gap: 30vw;
+  }
+  }
+
+  

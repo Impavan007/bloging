@@ -1,0 +1,20 @@
+.menuBar{
+    display: none;
+    }
+@media (max-width:768px) {
+    .menuBar{
+        display: flex;
+        position: fixed;
+        height: 6vh;
+        background-color: white;
+        border: 2px solid gray;
+        border-radius:23px 20px 0px 0px ;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        z-index:  4;
+        justify-content: space-between;
+        padding: 0px 4vw;
+        align-items: center;
+    }
+}
